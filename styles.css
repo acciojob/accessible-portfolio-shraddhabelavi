@@ -1,20 +1,22 @@
+h1 {
+  font-size: 2em;
+  margin-top: 0;
+}
 
-/* Your CSS Code here. */
 nav {
   margin-bottom: 20px;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
+nav ul {
+  list-style: none;
 }
 
-li {
+nav li {
   display: inline-block;
   margin: 0 10px;
 }
 
-a {
+nav a {
   text-decoration: none;
   color: black;
 }
@@ -22,13 +24,15 @@ a {
 img {
   max-width: 100%;
   height: auto;
+  display: block;
+  margin-bottom: 20px;
 }
 
-h1 {
-  font-size: 2em;
+ul {
+  list-style: none;
+  padding-left: 20px;
 }
 
-p {
-  font-size: 1em;
-  line-height: 1.5em;
+li {
+  margin-bottom: 10px;
 }
